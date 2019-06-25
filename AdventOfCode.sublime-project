@@ -1,0 +1,21 @@
+{
+	"folders":
+	[
+		{
+			"path": ".",
+			"file_exclude_patterns": [
+				".gitignore",
+				"*.sublime-project",
+				"*.sublime-workspace"
+			]
+		}
+	],
+	"build_systems":
+	[
+		{
+			"name": "Node.js",
+			"cmd": ["/usr/local/bin/node", "$file"],
+			"selector": "source.js"
+		}
+	]
+}
